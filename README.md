@@ -15,7 +15,7 @@ docker-compose exec db bash
 ## postgresのtestdbの中に入る
 
 ```
-psql testdb -U admin 
+psql todoapp -U admin 
 ```
 
 ## postgresから出る
@@ -41,3 +41,5 @@ exit
 ```
 docker-compose down
 ```
+
+
